@@ -1,4 +1,4 @@
-# ocr-
+# OCR-optical character recognition
 
 <B><H2>Optical character recognition</H2></B>
 

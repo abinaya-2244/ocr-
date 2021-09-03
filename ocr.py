@@ -28,7 +28,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 img = cv2.imread(IMAGE_PATH)
 img = cv2.rectangle(img,top_left,bottom_right,(0,255,0),5)
-img = cv2.putText(img,text,top_left,font,.5,(255,255,255),cv2.LINE_AA)
+img = cv2.putText(img,text,top_left,font,.5,(255,255,255),2,cv2.LINE_AA)
 plt.imshow(img)
 plt.show
 
